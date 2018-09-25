@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+#logo {
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+#heading {
+    text-align: left;
+    margin-left: 50px;
+    
+} 
+#connect {
+    text-align: right;
+    margin-right: 50px;
+    list-style-type: none;
+    display: -webkit-inline-box;
+    margin-left: 1000px;
+}
+#container {
+    background-image:url("ik_investments_banner.jpg");
+    height: 100%;
+    padding-bottom: 200px;
+   
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-blend-mode: soft-light;
+}
+#information {
+    text-align: center;
+}
+.column-contact {
+    box-sizing: content-box;
+}
+
+/* Child-Plan*/
+#firstplan {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvdc-91aH7-1UlG6NTpNqMQmNfYrVjoujMIQcrgolIAyeMDqDBbQ");
+    height: 100%;
+    width:100%;
+padding-bottom: 35%;
+margin: 0px;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+ #firstplan .top {
+     color: blueviolet;
+ }
+ #firstplan div {
+    text-align: center;
+    color: chartreuse;
+    
+ }
+ #firstplan button {
+    align-items: center;
+     color: darkred;
+ }
+ #myClockDisplay {
+     color: red;
+     text-align: right;
+    margin-right: 50px;
+    display: -webkit-inline-box;
+    margin-left: 1250px;
+    font-size: 25px;
+    
+ }

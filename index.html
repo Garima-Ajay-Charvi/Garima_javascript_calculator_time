@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="logo" class="logo">
+        <div id="heading">
+            <h1> Super Investment Plan</h1>
+            <nav>
+                <ul id="connect">
+                    <li>
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Home
+                            <span class="caret"></span>
+                        </button>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Contact
+                            <span class="caret"></span>
+                        </button>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plans
+                            <span class="caret"></span>
+                        </button>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>Child Plan</li>
+                            <li>Super Saving Plan</li>
+                            <li>Retirement Plan</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Login
+                            <span class="caret"></span>
+                        </button>
+                        </button>
+                    </li>
+                </ul>
+                <div id="myClockDisplay"></div>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div id="container">
+            <img src="http://www.ikinvest.com/globalassets/images/startpage/ik_investments_banner.jpg" class="image">
+            <div id="information">
+                <h2>Your Information</h2>
+                <form id="form" class="column-contact">
+                    <br>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Full Name">
+                    <br>
+                    <br>
+                    <input type="text" id="email" placeholder="Your Email address">
+                    <br>
+                    <br>
+                    <input type="text" id="country" placeholder="country">
+                    <br>
+                    <br>
+                    <input type="text" id="phone" placeholder="Your Phone Number">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <header id="firstplan">
+
+            <h1 class="top">
+                <marquee behavior="scroll" direction="left" scrollamount="10">
+                    Super Savings Plan-Child Solution
+                </marquee>
+            </h1>
+            <div>
+                <h3 class="bottom">Looking for a comprehensive child plan? Your search ends here!</h3>
+                <button onclick="planPage();">Invest now</button>
+            </div>
+
+
+
+
+
+
+
+            <script src="app.js"></script>
+            <script src="child_plan_app.js"></script>
+</body>
+
+</html>
